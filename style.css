@@ -1,0 +1,46 @@
+body {
+  width: 100vw;
+}
+
+main {
+  width: 75%;
+  border: 5px solid grey;
+  margin: 150px auto;
+}
+h1 {
+  background-color: lightslategray;
+  padding: 20px 0;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+h3 {
+  border-left: 5px solid lightslategray;
+  border-top: 5px solid lightslategray;
+  border-bottom: 5px solid lightslategray;
+  padding: 10px 10px;
+}
+input {
+  text-align: center;
+  font-size: 18px;
+  border: 5px solid lightslategray;
+  padding: 10px 10px;
+}
+label {
+  font-size: 20px;
+}
+ul {
+  padding: 0 40px;
+}
